@@ -1,5 +1,5 @@
 # Konstantin Mayorov
-![My Photo](https://iimg.su/i/fv92Hx)
+![My Photo](IMG.jpg)
 
 ## Contact Information
 - Email: mozhno_prost_kostya@mail.ru   
