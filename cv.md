@@ -16,7 +16,10 @@ Beginner frontend developer with zero experience and 100% motivation. Working ha
 - VS Code  
 
 ## Code Example
--
+```js
+function greet() {
+  return "hello world!";
+}
 
 ## Experience
 ### rsschool-cv project  
