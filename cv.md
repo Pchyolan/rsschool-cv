@@ -21,6 +21,7 @@ Beginner frontend developer with zero experience and 100% motivation. Working ha
 function greet() {
   return "hello world!";
 }
+```
 
 ## Experience
 ### rsschool-cv project  
