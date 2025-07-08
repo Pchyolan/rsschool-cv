@@ -1,9 +1,9 @@
 # Konstantin Mayorov
-![My Photo](https://iimg.su/i/fv92Hx)
+![My Photo](photo.jpg)
 
 ## Contact Information
 - Email: mozhno_prost_kostya@mail.ru   
-- Discord:  
+- Discord: pchela#6791
 - GitHub: [https://github.com/Pchyolan](https://github.com/Pchyolan)
 
 ## About Me
