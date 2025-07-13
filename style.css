@@ -25,7 +25,7 @@ body {
 }
 
 .black-box {
-  background-color: #080808;
+  background-color: #050505;
   margin-left: 20px;
   color: white;
   width: 380px;
@@ -148,7 +148,7 @@ h2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #080808;
+  background-color: #050505;
   color: #fff;
   padding: 20px 30px;
   width: 100%;
@@ -193,7 +193,7 @@ h2 {
 }
 
 .navbar {
-  background-color: #080808; 
+  background-color: #050505; 
   padding: 20px 10px;
   width: 100%;  
   border-radius: 8px 8px 0 0;
