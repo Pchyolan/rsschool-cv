@@ -37,7 +37,8 @@ body {
 
 .content {
   flex: 1;
-  padding: 30px 20px;
+  padding: 0px 30px;
+  font-size: 19px;
 }
 
 h1 {
@@ -45,7 +46,7 @@ h1 {
   font-weight: 700;
   margin-bottom: 10px;
   line-height: 1.0;
-  margin-top: 70px;
+  margin-top: 40px;
 }
 
 .Name {
@@ -59,7 +60,7 @@ h2 {
   margin-bottom: 30px;
   color: #666;
   border-bottom: 1px solid #ccc;
-  padding-bottom: 60px;
+  padding-bottom: 40px;
   margin-bottom: 15px;
 }
 
@@ -141,6 +142,7 @@ h2 {
 .Projects a {
   color: #000;
   font-size: 20px;
+  font-weight: 700;
 }
 .footer {
   display: flex;
@@ -226,8 +228,8 @@ h2 {
 
 section {
   border-bottom: 1px solid #ccc;
-  padding-bottom: 15px;
-  margin-bottom: 15px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 section:last-of-type {
@@ -238,14 +240,12 @@ section:last-of-type {
 
 .content section {
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  padding-bottom: 20px;
-  margin-bottom: 30px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   border-radius: 8px;
 }
 
 .content section:hover {
-  transform: scale(1.05);
+  transform: scale(1.01);
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
   background-color: #fafafa;
 }
