@@ -35,13 +35,20 @@ body {
   padding: 30px 20px;
 }
 
-.h1 {
+h1 {
   font-size: 90px;
   font-weight: 700;
   margin-bottom: 10px;
+  line-height: 1.0;
+  margin-top: 0;
 }
 
-.h2 {
+.Name {
+  font-weight: 400;
+  margin-right: 4px;
+}
+
+h2 {
   font-size: 24px;
   font-weight: 600;
   margin-bottom: 30px;
@@ -61,6 +68,37 @@ body {
   margin-bottom: 20px;
 }
 
+.black-box ul {
+  list-style: none;
+  padding-left: 0
+}
+.skill {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  margin-right: 90px;
+  font-size: 16px;
+  gap: 10px;
+  color: #fff;
+}
+
+.balls {
+  display: flex;
+  gap: 6px;
+}
+
+.ball {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background-color: transparent;
+  border: 1px solid #fff;
+}
+
+.filled {
+  background-color: #fff;
+}
 
 .footer {
   display: flex;
@@ -71,7 +109,7 @@ body {
   padding: 20px 30px;
   width: 100%;
   margin-top: 40px;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
   margin-left: -20px;
   margin-right: -20px;
   padding-left: 20px;
@@ -93,8 +131,15 @@ body {
 .Code-example {
   background-color: #f4f4f4;
   border-left: 6px solid #000;
-  padding: 20px;
-  margin-top: 20px;
+  padding: 10px 16px;
+  margin: 20px 0;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
+}
+
+.Code-example pre {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  line-height: 1.5;
 }
