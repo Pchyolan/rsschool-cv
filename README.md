@@ -1,2 +1,2 @@
-# rsschool-cv
-https://pchyolan.github.io/rsschool-cv/cv
+# rsschool-cv-html
+https://Pchyolan.github.io/rsschool-cv/
