@@ -5,15 +5,16 @@
   <meta charset="UTF-8">
   <title>My CV</title>
   <link rel="stylesheet" href="style.css">
-  <link rel="icon" href="assets/favicon.ico" />
+  <link rel="icon" href="assets/favicon.ico">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
   <div class="container">
     <main class="main-content">
       <div class="black-box">
-        <img src="photo.jpg" alt="My Photo" />
+        <img src="photo.jpg" alt="My Photo">
 
         <section class="Contacs">
           <h3> Contacts </h3>
@@ -26,33 +27,88 @@
 
         <section class="About Me">
           <h3>About me</h3>
-          <p>Beginner frontend developer with zero experience and 100% motivation. Working hard to turn coffee into code
-            ☕💻</p>
+          <p>Beginner frontend developer with zero experience and 100% motivation. Working hard to turn coffee into code ☕💻</p>
         </section>
 
         <section class="skills">
           <h3>Skills</h3>
           <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript (basic)</li>
-            <li>Git & GitHub</li>
-            <li>Python (basic)</li>
+            <li>
+              <div class="skill">
+                <span>HTML</span>
+                <div class="balls">
+                  <span class="filled ball"></span>
+                  <span class="filled ball"></span>
+                  <span class="filled ball"></span>
+                  <span class="filled ball"></span>
+                  <span class="ball"></span>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="skill">
+                <span>CSS</span>
+                <div class="balls">
+                  <span class="filled ball"></span>
+                  <span class="filled ball"></span>
+                  <span class="filled ball"></span>
+                  <span class="ball"></span>
+                  <span class="ball"></span>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="skill">
+                <span>JavaScript</span>
+                <div class="balls">
+                  <span class="filled ball"></span>
+                  <span class="ball"></span>
+                  <span class="ball"></span>
+                  <span class="ball"></span>
+                  <span class="ball"></span>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="skill">
+                <span>Git & GitHub</span>
+                <div class="balls">
+                  <span class="filled ball"></span>
+                  <span class="filled ball"></span>
+                  <span class="filled ball"></span>
+                  <span class="ball"></span>
+                  <span class="ball"></span>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="skill">
+                <span>Python</span>
+                <div class="balls">
+                  <span class="filled ball"></span>
+                  <span class="filled ball"></span>
+                  <span class="filled ball"></span>
+                  <span class="filled ball"></span>
+                  <span class="ball"></span>
+                </div>
+              </div>
+            </li>
+
           </ul>
         </section>
       </div>
-      
+
       <div class="content">
         <header>
           <h1>
-            <span>Konstantin</span><br />
+            <span class="Name">Konstantin</span> <br>
             <span>Mayorov</span>
           </h1>
           <h2>Junior Developer</h2>
         </header>
         <section class="Expirience">
           <h3>Expirience</h3>
-          <p><strong>Coming soon...</strong><br />Experience loading... Please wait ⏳</p>
+          <p><strong>Coming soon...</strong><br>Experience loading... Please wait ⏳</p>
         </section>
 
         <section class="Education">
@@ -63,7 +119,7 @@
             <li> Rolling Scopes School: JavaScript/Front-End Stage 0 (currently) </li>
           </ul>
         </section>
-        <section class="Code Example">
+        <section class="Code-example">
           <h3> Code Example </h3>
           <pre>
           <code>
@@ -73,7 +129,7 @@
           </code>
         </pre>
         </section>
-        <section class="Code Example">
+        <section class="Languages">
           <h3> Languages </h3>
           <ul>
             <li> Russian — native </li>
@@ -82,16 +138,22 @@
         </section>
       </div>
     </main>
-    
-    <footer class="footer">
-      <p>
-        <a href="https://github.com/Pchyolan" target="_blank">My GitHub</a>
-        <a href="https://rs.school/courses/javascript-ru" target="_blank">
-          <img src="rs-school-logo.svg" alt="RS School logo">
-        </a>
-      </p>
-    </footer>
 
+    <footer class="footer">
+      <div class="footer-left">
+        <a href="https://github.com/pchyolan" target="_blank">
+          <img src="github_logo.png" alt="GitHub">
+        </a>
+      </div>
+      <div class="footer-center">
+        <p>© 2025</p>
+      </div>
+      <div class="footer-right">
+        <a href="https://rs.school/js-stage0/" target="_blank">
+          <img src="rs-school-logo.svg" alt="RS School">
+        </a>
+      </div>
+    </footer>
   </div>
 
 </body>
