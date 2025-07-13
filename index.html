@@ -7,30 +7,53 @@
   <link rel="stylesheet" href="style.css">
   <link rel="icon" href="assets/favicon.ico">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
-
 </head>
 
 <body>
   <div class="container">
+    <nav class="navbar">
+      <ul>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contacts">Contacts</a></li>
+      </ul>
+    </nav>
     <main class="main-content">
       <div class="black-box">
         <img src="photo.jpg" alt="My Photo">
 
-        <section class="Contacs">
+        <section class="Contacs" id="contacts">
           <h3> Contacts </h3>
           <ul>
-            <li>Email: mozhno_prost_kostya@mail.ru</li>
-            <li>Discord: pchela#5781</li>
-            <li>GitHub: github.com/pchyolan</li>
+            <li>
+              <div class="icons">
+                <img src="mail.png" alt="Email">
+                mozhno_prost_kostya@mail.ru
+              </div>
+            </li>
+            <li>
+              <div class="icons">
+                <img src="discord.png" alt="Discord">
+                pchela#5781
+              </div>
+            </li>
+            <li>
+              <div class="icons">
+                <img src="github.png" alt="GitHub">
+                github.com/pchyolan
+              </div>
+            </li>
           </ul>
         </section>
 
-        <section class="About Me">
+        <section class="About Me" id="about">
           <h3>About me</h3>
-          <p>Beginner frontend developer with zero experience and 100% motivation. Working hard to turn coffee into code ☕💻</p>
+          <p>Beginner frontend developer with zero experience and 100% motivation. Working hard to turn coffee into code
+            ☕💻</p>
         </section>
 
-        <section class="skills">
+        <section class="skills" id="skills">
           <h3>Skills</h3>
           <ul>
             <li>
@@ -111,7 +134,7 @@
           <p><strong>Coming soon...</strong><br>Experience loading... Please wait ⏳</p>
         </section>
 
-        <section class="Education">
+        <section class="Education" id="education">
           <h3>Education</h3>
           <ul>
             <li> IT student at SPbSUT (Saint Petersburg State University of Telecommunications) </li>
@@ -121,13 +144,9 @@
         </section>
         <section class="Code-example">
           <h3> Code Example </h3>
-          <pre>
-          <code>
-            function greet() {
-              return "hello world!";
-            }
-          </code>
-        </pre>
+          <pre><code>function greet() {
+  return "hello world!";
+}</code></pre>
         </section>
         <section class="Languages">
           <h3> Languages </h3>
