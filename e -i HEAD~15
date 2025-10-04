@@ -1,0 +1,29 @@
+[33mb7e129a[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mrsschool-cv-html[m[33m, [m[1;31morigin/rsschool-cv-html[m[33m)[m docs: change color of some blocks
+[33m120cc22[m docs: change margin for blocks
+[33m72dadcf[m feat: add projects block and change rs-logo
+[33m2462f72[m feat: add new profile photo
+[33m4a17e87[m docs: change h2 size
+[33m570e6a1[m docs: change discord nickname
+[33meb5e5cc[m docs: change profile photo
+[33md6ccff0[m feat: add hover for blocks and nav
+[33m8e323f4[m feat: add icons for contacts and lines
+[33me184bd7[m feat add styles for text and skills desigh
+[33m69dd37c[m docs: change footer
+[33m24680c2[m feat: add base CSS styles for layout blocks
+[33m563d6a4[m add semantic header block
+[33maf6c3e0[m feat: add <main> wrapper to group layout blocks
+[33m97dc635[m feat: add footer with GitHub, year and logo
+[33m0ce8889[m feat: add footer with GitHub, year and logo
+[33m2b7df2c[m feat: add right column sections
+[33m9856dd6[m feat: add left column content
+[33mf69e2b4[m init: add base html structure
+[33m774de4e[m docs: update README.md
+[33m9bd0241[m feat: add base HTML and CSS templates
+[33m3a505b5[m init: create HTML and CSS files
+[33ma919d53[m[33m ([m[1;31morigin/gh-pages[m[33m, [m[1;32mgh-pages[m[33m)[m fix: correct code block formatting
+[33m402b81d[m fix: correct code block formatting
+[33md0cdc92[m feat: add simple code example to CV
+[33m09918c4[m fix: add profile photo and update CV
+[33m417df7b[m feat: add full CV content without code example
+[33m684fcde[m init: create empty cv.md
+[33m0480a8d[m Initial commit
